@@ -1,2 +1,6 @@
 *.mp4
 vis_iris/frames/
+vis_iris/landmarks_all_original.npy
+vis_iris/landmarks_loc_netout.npy
+vis_iris/sampled_frames_crop.npy
+vis_iris/sampled_frames.npy
