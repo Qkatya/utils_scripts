@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run Landmark Canonicalization",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/canonical_lmks_slurm.py",
+            "args": [
+                "/mnt/ML/ModelsTrainResults/katya.ivantsiv/splits/6M_20250220_loud_whisperwer_lower_0p1_with_attrs_with_blendshapes_cleaned2_with_side.pkl",
+                "0",
+                "2",
+                "--canon-lmks-save-dir",
+                "/mnt/ML/Development/katya.ivantsiv/landmarks",
+                "--trns-mtx-save-dir",
+                "/mnt/ML/TrainResults/katya.ivantsiv/lmks_canonical_trans",
+                "--videos-path",
+                "/mnt/A3000/Recordings/v2_data"
+            ],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "show_slurm_stats",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/show_slurm_status.py",
+            "args": [
+                "--job_id",
+                "268089",
+                "--job_name",
+                "create_canonical_lmks"
+            ],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Convert Landmarks to Float16 (Dry Run)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/convert_landmarks_to_float16.py",
+            "args": [
+                "/mnt/ML/Development/katya.ivantsiv/landmarks",
+                "--dry-run",
+                "--n-jobs",
+                "96",
+                "--batch-size",
+                "1000",
+                "--sample-size",
+                "1000"
+            ],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Convert Landmarks to Float16 (Actual Conversion)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/convert_landmarks_to_float16.py",
+            "args": [
+                "/mnt/ML/Development/katya.ivantsiv/landmarks0",
+                "--n-jobs",
+                "96",
+                "--batch-size",
+                "1000"
+            ],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "console": "integratedTerminal"
+        }
+
+    ]
+}
