@@ -37,7 +37,7 @@ BLENDSHAPES_ORDERED = ['_neutral', 'browDownLeft', 'browDownRight', 'browInnerUp
                        'mouthShrugUpper', 'mouthSmileLeft', 'mouthSmileRight', 'mouthStretchLeft', 'mouthStretchRight', 'mouthUpperUpLeft', 'mouthUpperUpRight', 'noseSneerLeft', 'noseSneerRight']
 
 BLENDSHAPE_COLORS = {'eyeBlinkRight': '#e377c2', 'jawOpen': '#ff7f0e', 'mouthFunnel': '#2ca02c', 'cheekPuff': '#d62728', 'mouthSmileLeft': '#9467bd', 'mouthFrownLeft': '#8c564b'}
-PLOT_COLORS = ['#ff7f0e', '#2ca02c', '#d62728']
+PLOT_COLORS = ["#ed7811", '#2ca02c', '#d62728']
 
 # ============================================================================
 # UTILITY FUNCTIONS
@@ -144,8 +144,8 @@ def normalize_blendshapes(blendshapes, model_type, blendshapes_idx, normalizatio
         # Fairseq models output normalized values, need to unnormalize using mean/std
         if normalization_factors is None:
             raise ValueError("normalization_factors required for fairseq models")
-        std = normalization_factors["Std"].values[np.array(blendshapes_idx)]
-        mean = normalization_factors["Mean"].values[np.array(blendshapes_idx)]
+        std = normalization_factors.iloc[blendshapes_idx]["Std"].values
+        mean = normalization_factors.iloc[blendshapes_idx]["Mean"].values
         blendshapes_unnorm[:, blendshapes_idx] = (blendshapes[:, blendshapes_idx] * std) + mean
         
     elif model_type == 'nemo':
@@ -161,7 +161,7 @@ def compute_metrics(gt, preds, blendshape_names):
         # print(bs_name)
         idx = BLENDSHAPES_ORDERED.index(bs_name)
         for i, pred in enumerate(preds, 1):
-            sign_match, r = velocity_agreement(gt, pred, bs_name)
+            sign_match, r = velocity_agreement(gt, pred, bs_name) #plot_blendshape_index(gt, pred, idx=idx)
             results[f'sign_match_{bs_name}_model{i}'] = sign_match
             results[f'r_{bs_name}_model{i}'] = r
             # Calculate RMSE for this blendshape
@@ -242,12 +242,21 @@ features_path = Path('/mnt/ML/Production/ML_Processed_Data/Q_Features/v2_200fps_
 # blendshape_indices: indices to use for this model
 # line_style: None (solid), 'dash', 'dot', 'dashdot'
 MODEL_CONFIGS = [
-    # {
-    #     'path': '/mnt/ML/ModelsTrainResults/katya.ivantsiv/blendshapes/blendshapes_loud/0/checkpoints/checkpoint_last.pt',
-    #     'type': 'fairseq',
-    #     'name': 'blendshapes_loud',
-    #     'display_name': 'D2V trained on 400k samples',
-    #     'blendshape_indices': list(range(1, 52)),
+    {
+        'path': '/mnt/ML/ModelsTrainResults/katya.ivantsiv/blendshapes/blendshapes_loud/0/checkpoints/checkpoint_last.pt',
+        'type': 'fairseq',
+        'name': 'blendshapes_loud',
+        'display_name': 'D2V trained on 400k samples',
+        'blendshape_indices': list(range(1, 52)),
+        'line_style': None
+    },
+    # { 
+    #     'path': '/mnt/ML/ModelsTrainResults/katya.ivantsiv/NeMo/landmarks/causal_preprocessor_encoder_with_smile/checkpoints/causal_preprocessor_encoder_with_smile.nemo',
+    #     'type': 'nemo',
+    #     'name': 'causal_preprocessor_encoder_with_smile',
+    #     'display_name': 'NeMo FastConformer (Causal) - All Blendshapes, partly trained',
+    #     'blendshape_indices': [6, 8, 10, 14, 16, 25, 26, 27, 29, 31, 32, 38, 45],
+    #     'color': '#17becf',  # Cyan
     #     'line_style': None
     # },
     {
@@ -319,6 +328,14 @@ print(f"Loading dataframe from {df_path}")
 df = pd.read_pickle(df_path)
 print(f"Loaded dataframe with {len(df)} rows")
 
+
+# /mnt/ML/Development/ML_Data_DB/v2/splits/full_hdf5/20250916_split_1/
+#  LOUD_GIP_general_clean_250415_v2.h5
+# LIP_GIP_general_clean_250415_v2.h5
+# WHISPER_GIP_general_clean_250415_v2.h5
+# SILENT_GIP_general_clean_250415_v2.h5
+
+
 # ============================================================================
 # INFERENCE CONFIGURATION
 # ============================================================================
@@ -334,7 +351,7 @@ blink_counters = {f'blink_counter_{name}': [] for name in ['gt'] + [f'model{i}' 
 
 plot_gt_vs_pred_flag = True
 
-# Sample selection
+# Sample selection 
 row_idxs = [3663]  # random.sample(range(0, len(df)), 50)
 row_idxs = [3953]  # random.sample(range(0, len(df)), 50)
 row_idxs = random.sample(range(0, len(df)), 50) #[556,1004, 2877,1744, 3663]
@@ -374,7 +391,7 @@ for row_ind in tqdm(row_idxs):
         all_predictions.append(blendshapes_unnorm)
     
     # Plot blendshapes comparison
-    # plot_blendshape_comparison(gt_blendshapes, all_predictions, models, use_diff=False)
+    # plot_blendshape_comparison(gt_blendshapes, all_predictions, models, use_diff=True)
     
     # Align lengths
     min_len = min(len(gt_blendshapes), *[len(pred) for pred in all_predictions])
@@ -389,9 +406,11 @@ for row_ind in tqdm(row_idxs):
         else:
             metrics[key].append(val)
     
-    # # Optional plotting
-    # if plot_gt_vs_pred_flag:
-    #     plot_blendshape_comparison(gt_blendshapes, blendshapes_unnorm, blendshapes_unnorm2, blendshapes3) # Plit diff of Blendshapes (looks better)
+    # Optional plotting
+    if plot_gt_vs_pred_flag:
+        plot_blendshape_comparison(gt_blendshapes, all_predictions, models, use_diff=True)
+        # plot_blendshape_comparison(gt_blendshapes, blendshapes_unnorm, models, use_diff=False) # Plit diff of Blendshapes (looks better)
+        # plot_blendshape_comparison(gt_blendshapes, blendshapes_unnorm, blendshapes_unnorm2, blendshapes3) # Plit diff of Blendshapes (looks better)  # pyright: ignore[reportUndefinedVariable]
 
 
 # ============================================================================
