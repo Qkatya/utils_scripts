@@ -1,0 +1,16 @@
+{
+  "timestamp": "20251224_104017",
+  "split_file": "/mnt/ML/Personalized/eliav.benisty/v2_splits/20250527_split_1/train_cleanloud_hbert_harm0p8_withFS_with_cer_under_30.h5",
+  "destination_folder": "/mnt/ML/Development/katya.ivantsiv/blendshapes",
+  "unique_paths_length": 8805564,
+  "total_files": 8805564,
+  "results": {
+    "success": "8658838, 98.33%",
+    "path_not_exist": "92289, 1.05%",
+    "not_loadable": "1, 0.00%",
+    "features_path_not_exist": "0, 0.00%",
+    "has_nans": "28047, 0.32%",
+    "lengths_mismatch": "26389, 0.30%",
+    "values_out_of_range": "0, 0.00%"
+  }
+}

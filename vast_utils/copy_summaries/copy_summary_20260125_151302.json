@@ -1,0 +1,16 @@
+{
+  "timestamp": "20260125_151302",
+  "split_file": "/mnt/ML/ModelsTrainResults/katya.ivantsiv/splits/expressive_validation_with_side_20260111.h5",
+  "destination_folder": "/mnt/ML/Development/katya.ivantsiv/blendshapes",
+  "unique_paths_length": 26847,
+  "total_files": 26847,
+  "results": {
+    "success": "26463, 98.57%",
+    "path_not_exist": "0, 0.00%",
+    "not_loadable": "0, 0.00%",
+    "features_path_not_exist": "0, 0.00%",
+    "has_nans": "11, 0.04%",
+    "lengths_mismatch": "373, 1.39%",
+    "values_out_of_range": "0, 0.00%"
+  }
+}

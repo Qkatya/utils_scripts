@@ -1,0 +1,141 @@
+sample_idx,run_path,read_text,video_filename,video_status
+0,2026/02/09/DeliverableArgument-202326/16_0_7fee539d-75bb-4e87-96f7-f66fd8820da8_other,look from top left to bottom right (2 times),sample_000.mp4,copied
+1,2026/02/18/FuriousGoal-150005/29_0_07becb1d-d97f-40a2-94f2-5b7444dcc140_other,"expression: raise eyebrows
+intensity: big",sample_001.mp4,copied
+2,2026/02/10/VibrantCoverage-150041/6_0_ef7fa2e5-eaa3-45e0-83fa-f7339cf2fe62_other,expression: close eyes,sample_002.mp4,copied
+3,2026/02/10/ThunderingSilo-102336/4_0_3641f52f-e6d5-474c-b2b1-bbbcfddf7ef9_other,expression: puff cheeks,sample_003.mp4,copied
+4,2026/02/10/SequenceGlossy-115326/35_0_e503e811-561e-4e18-85a6-e2a2cc042146_loud,cow. john. moose.,sample_004.mp4,copied
+5,2026/02/09/HiddenUniversity-202205/18_0_3d6e7c61-b9c6-441d-8b55-b9ee23831068_other,"expression: smile
+intensity: small",sample_005.mp4,copied
+6,2026/02/09/MotorLeading-145951/18_0_3d6e7c61-b9c6-441d-8b55-b9ee23831068_other,"expression: smile
+intensity: small",sample_006.mp4,copied
+7,2026/02/13/ProtagonistFarad-124652/35_0_e503e811-561e-4e18-85a6-e2a2cc042146_loud,cow. john. moose.,sample_007.mp4,copied
+8,2026/02/09/ShoulderIsland-172409/21_0_dcd7a642-d979-4403-a8a7-508ad59f3aee_other,"expression: open mouth
+intensity: small",sample_008.mp4,copied
+9,2026/02/17/MagpieScuba-121954/18_0_3d6e7c61-b9c6-441d-8b55-b9ee23831068_other,"expression: smile
+intensity: small",sample_009.mp4,copied
+10,2026/02/11/AdventurousBogey-182057/32_0_35b40364-e2b8-456b-a049-38a236c4cbae_loud,eee eye eee eye ohh,sample_010.mp4,copied
+11,2026/02/03/ThornPipeline-172138/28_0_1fd6de8f-173f-47bb-bd33-b4c4e35d024e_other,"expression: raise eyebrows
+intensity: medium",sample_011.mp4,copied
+12,2026/02/03/FittingNeck-164859/26_0_cb505bc6-8a6d-406e-953d-f7b2fef0e642_other,"expression: puff cheeks
+intensity: big",sample_012.mp4,copied
+13,2026/02/09/HouseLight-151935/19_1_12e226f0-6593-459b-8471-6e14e8a21098_other,"expression: smile
+intensity: medium",sample_013.mp4,copied
+14,2026/02/10/SequenceGlossy-115326/5_0_1b49046b-61f5-48fc-be72-f237c0a5370b_other,expression: raise eyebrows,sample_014.mp4,copied
+15,2026/02/10/DepotSupernova-120959/15_0_776bda59-2023-4deb-8d82-07a94424d6ba_other,look from top right to bottom left (3 times),sample_015.mp4,copied
+16,2026/02/12/ExternalPiles-175814/25_0_7c06f2da-aef3-4f46-8282-25f1013cae24_other,"expression: puff cheeks
+intensity: medium",sample_016.mp4,copied
+17,2026/02/17/BoutiquePoached-124024/15_0_53da3da6-3036-4e20-8daf-86c8093fdc10_other,look from top right to bottom left (4 times),sample_017.mp4,missing
+18,2026/02/03/ThornPipeline-172138/20_0_5a4b63a4-5dc0-4391-834e-a204c9d2c795_other,"expression: smile
+intensity: big",sample_018.mp4,copied
+19,2026/02/13/FolderHexagon-150833/25_0_7c06f2da-aef3-4f46-8282-25f1013cae24_other,"expression: puff cheeks
+intensity: medium",sample_019.mp4,copied
+20,2026/02/10/PastryMargarine-112313/13_1_77ba42cf-2c39-434f-b5c9-12b009b6328c_other,"look up, then down (4 times)",sample_020.mp4,copied
+21,2026/02/13/MetalFormation-115845/35_0_e503e811-561e-4e18-85a6-e2a2cc042146_loud,cow. john. moose.,sample_021.mp4,copied
+22,2026/02/11/ShepherdAdiabatic-180038/33_0_50cb1494-688a-4120-891e-bcd774914ecb_loud,ba ba ba. ma ma ma. pa pa pa.,sample_022.mp4,copied
+23,2026/02/10/HypothesisDecibel-112347/27_0_4e4f3422-17ad-40e3-8c01-2054a9876914_other,"expression: raise eyebrows
+intensity: small",sample_023.mp4,copied
+24,2026/02/12/BankruptcyCorolla-094527/32_0_35b40364-e2b8-456b-a049-38a236c4cbae_loud,eee eye eee eye ohh,sample_024.mp4,copied
+25,2026/02/17/MagpieScuba-121954/16_0_1f1a06e3-e691-46fc-b1eb-e1a6bd33770b_other,look from top left to bottom right (1 time),sample_025.mp4,copied
+26,2026/02/10/GoalieMoat-130017/28_0_1fd6de8f-173f-47bb-bd33-b4c4e35d024e_other,"expression: raise eyebrows
+intensity: medium",sample_026.mp4,copied
+27,2026/02/18/SignatureRound-120036/3_0_632f3c73-de7c-42c4-bc4e-76b4a47716b1_other,expression: open mouth,sample_027.mp4,copied
+28,2026/02/09/AgreementCarp-175620/32_0_35b40364-e2b8-456b-a049-38a236c4cbae_loud,eee eye eee eye ohh,sample_028.mp4,copied
+29,2026/02/11/AdventurousBogey-182057/7_0_292b4494-ed45-4cca-951f-e2dca6598f99_other,expression: look up,sample_029.mp4,copied
+30,2026/02/10/ActressFlora-180840/27_0_4e4f3422-17ad-40e3-8c01-2054a9876914_other,"expression: raise eyebrows
+intensity: small",sample_030.mp4,copied
+31,2026/02/10/FontMonastery-142157/15_0_53da3da6-3036-4e20-8daf-86c8093fdc10_other,look from top right to bottom left (4 times),sample_031.mp4,copied
+32,2026/02/09/ScaffoldTrainer-180019/6_0_ef7fa2e5-eaa3-45e0-83fa-f7339cf2fe62_other,expression: close eyes,sample_032.mp4,copied
+33,2026/02/10/DepotSupernova-121506/25_0_7c06f2da-aef3-4f46-8282-25f1013cae24_other,"expression: puff cheeks
+intensity: medium",sample_033.mp4,copied
+34,2026/02/10/BipedPorter-130133/22_1_d1e4c92a-4b3f-46ec-8c7e-8682fd6b51e8_other,"expression: open mouth
+intensity: medium",sample_034.mp4,copied
+35,2026/02/09/MotorLeading-145951/28_0_1fd6de8f-173f-47bb-bd33-b4c4e35d024e_other,"expression: raise eyebrows
+intensity: medium",sample_035.mp4,copied
+36,2026/02/09/HouseLight-151935/34_0_d0dc0afb-33b1-4497-924c-f08d6adc11d3_loud,cha cha cha. fa fa fa. da da da.,sample_036.mp4,copied
+37,2026/02/11/PedimentIvy-125035/13_0_77ba42cf-2c39-434f-b5c9-12b009b6328c_other,"look up, then down (4 times)",sample_037.mp4,copied
+38,2026/02/09/TartLand-172059/10_0_3e582a11-e182-4a65-8f4a-c9513a955183_other,expression: look right,sample_038.mp4,copied
+39,2026/02/11/CountingLimit-080930/20_1_5a4b63a4-5dc0-4391-834e-a204c9d2c795_other,"expression: smile
+intensity: big",sample_039.mp4,copied
+40,2026/02/10/GoudaTub-175929/21_0_dcd7a642-d979-4403-a8a7-508ad59f3aee_other,"expression: open mouth
+intensity: small",sample_040.mp4,copied
+41,2026/02/17/BoutiquePoached-124024/16_0_7fee539d-75bb-4e87-96f7-f66fd8820da8_other,look from top left to bottom right (2 times),sample_041.mp4,missing
+42,2026/02/10/FrequencyRecourse-142240/26_0_cb505bc6-8a6d-406e-953d-f7b2fef0e642_other,"expression: puff cheeks
+intensity: big",sample_042.mp4,copied
+43,2026/02/03/EquilateralScotch-174002/5_0_1b49046b-61f5-48fc-be72-f237c0a5370b_other,expression: raise eyebrows,sample_043.mp4,copied
+44,2026/02/12/MagazineCabana-115658/28_0_1fd6de8f-173f-47bb-bd33-b4c4e35d024e_other,"expression: raise eyebrows
+intensity: medium",sample_044.mp4,copied
+45,2026/02/13/FirRancid-120034/14_0_658055ae-02d5-4898-91e2-209173410570_other,move your eyes in a circle (1 time),sample_045.mp4,copied
+46,2026/02/09/PeriodSnowy-202245/8_0_4b7194c5-c176-4a82-b93a-354012adeb9c_other,expression: look down,sample_046.mp4,copied
+47,2026/02/11/FuriousGoal-130301/28_0_1fd6de8f-173f-47bb-bd33-b4c4e35d024e_other,"expression: raise eyebrows
+intensity: medium",sample_047.mp4,copied
+48,2026/02/09/BraceRunoff-172142/31_0_5063b557-8f91-4d60-aca3-074899451c2e_loud,one one one one one,sample_048.mp4,copied
+49,2026/02/13/LarkDense-150028/12_2_2eab9a25-b393-497e-94b9-9849be923b8b_other,"look left, then right (4 times)",sample_049.mp4,copied
+50,2026/02/10/FlashedParticle-142133/27_0_4e4f3422-17ad-40e3-8c01-2054a9876914_other,"expression: raise eyebrows
+intensity: small",sample_050.mp4,copied
+51,2026/02/17/MedalBoat-175818/2_0_b0aceb38-9636-4efb-a5aa-bcc7039152dc_other,expression: smile,sample_051.mp4,copied
+52,2026/02/17/LarkDense-151511/29_0_07becb1d-d97f-40a2-94f2-5b7444dcc140_other,"expression: raise eyebrows
+intensity: big",sample_052.mp4,missing
+53,2026/02/11/CountingLimit-080930/15_2_53da3da6-3036-4e20-8daf-86c8093fdc10_other,look from top right to bottom left (4 times),sample_053.mp4,copied
+54,2026/02/17/AccountGilded-085847/14_0_24cebb68-5fcf-4c85-aea9-fa8ac1027314_other,move your eyes in a circle (4 times),sample_054.mp4,copied
+55,2026/02/10/VerbiageArchitecture-112349/2_0_b0aceb38-9636-4efb-a5aa-bcc7039152dc_other,expression: smile,sample_055.mp4,copied
+56,2026/02/09/PlaylistByline-172049/15_1_53da3da6-3036-4e20-8daf-86c8093fdc10_other,look from top right to bottom left (4 times),sample_056.mp4,copied
+57,2026/02/03/WindyResonant-171439/35_0_e503e811-561e-4e18-85a6-e2a2cc042146_loud,cow. john. moose.,sample_057.mp4,copied
+58,2026/02/10/KayakClick-115435/35_0_e503e811-561e-4e18-85a6-e2a2cc042146_loud,cow. john. moose.,sample_058.mp4,copied
+59,2026/02/10/FontMonastery-142157/26_0_cb505bc6-8a6d-406e-953d-f7b2fef0e642_other,"expression: puff cheeks
+intensity: big",sample_059.mp4,copied
+60,2026/02/09/JuiceYak-172202/24_0_4963adc5-3fb1-47f4-8440-062a4453abef_other,"expression: puff cheeks
+intensity: small",sample_060.mp4,copied
+61,2026/02/10/VerbiageRamp-112328/8_0_4b7194c5-c176-4a82-b93a-354012adeb9c_other,expression: look down,sample_061.mp4,copied
+62,2026/02/09/BevelIndependent-154814/20_1_5a4b63a4-5dc0-4391-834e-a204c9d2c795_other,"expression: smile
+intensity: big",sample_062.mp4,copied
+63,2026/02/11/FuriousGoal-130301/9_0_62105ce0-9e82-4cbe-ad49-92474af06b5e_other,expression: look left,sample_063.mp4,copied
+64,2026/02/10/GoalieMoat-130017/6_0_ef7fa2e5-eaa3-45e0-83fa-f7339cf2fe62_other,expression: close eyes,sample_064.mp4,copied
+65,2026/02/12/LathSycamore-094614/21_0_dcd7a642-d979-4403-a8a7-508ad59f3aee_other,"expression: open mouth
+intensity: small",sample_065.mp4,copied
+66,2026/02/11/CountingLimit-080930/35_0_e503e811-561e-4e18-85a6-e2a2cc042146_loud,cow. john. moose.,sample_066.mp4,copied
+67,2026/02/09/AgreementCarp-175620/16_0_0b48fad6-dd62-4596-84fa-82afadda8c69_other,look from top left to bottom right (4 times),sample_067.mp4,copied
+68,2026/02/11/BankruptcyCorolla-080828/13_0_46a8a990-3809-4bd6-8f90-fa2138e1ee1f_other,"look up, then down (2 times)",sample_068.mp4,copied
+69,2026/02/10/GoudaTub-175929/22_1_d1e4c92a-4b3f-46ec-8c7e-8682fd6b51e8_other,"expression: open mouth
+intensity: medium",sample_069.mp4,copied
+70,2026/02/10/AromaClick-115318/15_1_53da3da6-3036-4e20-8daf-86c8093fdc10_other,look from top right to bottom left (4 times),sample_070.mp4,copied
+71,2026/02/10/NucleusTesla-142133/23_0_1386ca45-3615-43cb-9cbb-fddbffbf0589_other,"expression: open mouth
+intensity: big",sample_071.mp4,copied
+72,2026/02/09/PlaylistByline-172049/28_0_1fd6de8f-173f-47bb-bd33-b4c4e35d024e_other,"expression: raise eyebrows
+intensity: medium",sample_072.mp4,copied
+73,2026/02/17/CurveRegion-115847/23_0_1386ca45-3615-43cb-9cbb-fddbffbf0589_other,"expression: open mouth
+intensity: big",sample_073.mp4,missing
+74,2026/02/18/CurveRegion-095221/2_0_b0aceb38-9636-4efb-a5aa-bcc7039152dc_other,expression: smile,sample_074.mp4,copied
+75,2026/02/09/AgreementCarp-175620/35_0_e503e811-561e-4e18-85a6-e2a2cc042146_loud,cow. john. moose.,sample_075.mp4,copied
+76,2026/02/13/FirRancid-120034/18_0_3d6e7c61-b9c6-441d-8b55-b9ee23831068_other,"expression: smile
+intensity: small",sample_076.mp4,copied
+77,2026/02/10/ThunderingSilo-102336/20_0_5a4b63a4-5dc0-4391-834e-a204c9d2c795_other,"expression: smile
+intensity: big",sample_077.mp4,copied
+78,2026/02/09/SwordShrewd-150152/21_1_dcd7a642-d979-4403-a8a7-508ad59f3aee_other,"expression: open mouth
+intensity: small",sample_078.mp4,copied
+79,2026/02/12/MagazineCabana-115658/26_0_cb505bc6-8a6d-406e-953d-f7b2fef0e642_other,"expression: puff cheeks
+intensity: big",sample_079.mp4,copied
+80,2026/02/11/ChordCloudy-125108/9_0_62105ce0-9e82-4cbe-ad49-92474af06b5e_other,expression: look left,sample_080.mp4,copied
+81,2026/02/10/PerfectFuton-142103/12_1_682d6e9d-8868-4dd5-b969-2aa156c22eb8_other,"look left, then right (3 times)",sample_081.mp4,copied
+82,2026/02/13/LarkDense-150028/28_0_1fd6de8f-173f-47bb-bd33-b4c4e35d024e_other,"expression: raise eyebrows
+intensity: medium",sample_082.mp4,copied
+83,2026/02/10/TomFjord-115405/3_0_632f3c73-de7c-42c4-bc4e-76b4a47716b1_other,expression: open mouth,sample_083.mp4,copied
+84,2026/02/10/RecordistRoot-145850/3_0_632f3c73-de7c-42c4-bc4e-76b4a47716b1_other,expression: open mouth,sample_084.mp4,copied
+85,2026/02/09/SwatchWarp-155337/4_0_3641f52f-e6d5-474c-b2b1-bbbcfddf7ef9_other,expression: puff cheeks,sample_085.mp4,copied
+86,2026/02/10/DepotSupernova-121506/10_0_3e582a11-e182-4a65-8f4a-c9513a955183_other,expression: look right,sample_086.mp4,copied
+87,2026/02/03/EquilateralScotch-174954/33_0_50cb1494-688a-4120-891e-bcd774914ecb_loud,ba ba ba. ma ma ma. pa pa pa.,sample_087.mp4,copied
+88,2026/02/10/CoordinatorMoss-150008/35_0_e503e811-561e-4e18-85a6-e2a2cc042146_loud,cow. john. moose.,sample_088.mp4,copied
+89,2026/02/11/SeatTritone-145917/34_0_d0dc0afb-33b1-4497-924c-f08d6adc11d3_loud,cha cha cha. fa fa fa. da da da.,sample_089.mp4,copied
+90,2026/02/10/PerfectFuton-142103/24_0_4963adc5-3fb1-47f4-8440-062a4453abef_other,"expression: puff cheeks
+intensity: small",sample_090.mp4,copied
+91,2026/02/09/EngineSkier-172157/4_0_3641f52f-e6d5-474c-b2b1-bbbcfddf7ef9_other,expression: puff cheeks,sample_091.mp4,copied
+92,2026/02/10/TomFjord-115405/6_0_ef7fa2e5-eaa3-45e0-83fa-f7339cf2fe62_other,expression: close eyes,sample_092.mp4,copied
+93,2026/02/13/ExternalPiles-180803/29_0_07becb1d-d97f-40a2-94f2-5b7444dcc140_other,"expression: raise eyebrows
+intensity: big",sample_093.mp4,copied
+94,2026/02/10/EmbrasureKeep-142145/2_0_b0aceb38-9636-4efb-a5aa-bcc7039152dc_other,expression: smile,sample_094.mp4,copied
+95,2026/02/10/DepotSupernova-120334/13_0_cbc80d3e-9d0e-4e31-babc-f3997bf49fec_other,"look up, then down (1 time)",sample_095.mp4,copied
+96,2026/02/12/CurbWalk-180018/35_0_e503e811-561e-4e18-85a6-e2a2cc042146_loud,cow. john. moose.,sample_096.mp4,copied
+97,2026/02/11/CuriousValue-145830/14_0_658055ae-02d5-4898-91e2-209173410570_other,move your eyes in a circle (1 time),sample_097.mp4,copied
+98,2026/02/12/MeanderIron-100059/29_0_07becb1d-d97f-40a2-94f2-5b7444dcc140_other,"expression: raise eyebrows
+intensity: big",sample_098.mp4,copied
+99,2026/02/09/ScaffoldTrainer-180457/9_0_62105ce0-9e82-4cbe-ad49-92474af06b5e_other,expression: look left,sample_099.mp4,copied

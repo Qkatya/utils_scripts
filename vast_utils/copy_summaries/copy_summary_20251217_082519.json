@@ -1,0 +1,16 @@
+{
+  "timestamp": "20251217_082519",
+  "split_file": "/mnt/ML/Development/ML_Data_DB/v2/splits/full/20251106_split_1/kfold_train_251106_no_bookkeeping_r8_mid_th_sil_0_5_lip_0_4_whi_0_34_loud_0_167.pkl",
+  "destination_folder": "/mnt/ML/Development/katya.ivantsiv/blendshapes",
+  "unique_paths_length": 19256834,
+  "total_files": 19256834,
+  "results": {
+    "success": "18870553, 97.99%",
+    "path_not_exist": "206524, 1.07%",
+    "not_loadable": "3, 0.00%",
+    "features_path_not_exist": "0, 0.00%",
+    "has_nans": "58546, 0.30%",
+    "lengths_mismatch": "121208, 0.63%",
+    "values_out_of_range": "0, 0.00%"
+  }
+}

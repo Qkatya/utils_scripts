@@ -1,0 +1,17 @@
+{
+  "timestamp": "20251216_135800",
+  "split_file": "/mnt/ML/Development/ML_Data_DB/v2/splits/other/20251201_V3/V3/train.pkl",
+  "destination_folder": "/mnt/ML/Development/katya.ivantsiv/blendshapes",
+  "df_length": 2149150,
+  "unique_paths_length": 2149150,
+  "total_files": 2149150,
+  "results": {
+    "success": "2078849, 96.73%",
+    "path_not_exist": "3885, 0.18%",
+    "not_loadable": "0, 0.00%",
+    "features_path_not_exist": "0, 0.00%",
+    "has_nans": "7722, 0.36%",
+    "lengths_mismatch": "58694, 2.73%",
+    "values_out_of_range": "0, 0.00%"
+  }
+}

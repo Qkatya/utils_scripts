@@ -1,0 +1,17 @@
+{
+  "timestamp": "20260104_103301",
+  "split_file": "/mnt/ML/ModelsTrainResults/katya.ivantsiv/splits/loud_and_whisper_and_lip_20250713_064722.h5",
+  "destination_folder": "/mnt/ML/Development/katya.ivantsiv/blendshapes",
+  "unique_paths_length": 7500443,
+  "total_files": 7500443,
+  "results": {
+    "success": "7464997, 99.53%",
+    "already_exists": "7464878, 99.53%",
+    "path_not_exist": "15378, 0.21%",
+    "not_loadable": "0, 0.00%",
+    "features_path_not_exist": "0, 0.00%",
+    "has_nans": "6868, 0.09%",
+    "lengths_mismatch": "13200, 0.18%",
+    "values_out_of_range": "0, 0.00%"
+  }
+}

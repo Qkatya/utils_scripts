@@ -1,0 +1,16 @@
+{
+  "timestamp": "20251224_072132",
+  "split_file": "/mnt/ML/ModelsTrainResults/angelina.heyler/multimodal_nemo/splits/clearvoice_brainvoice_intersection_split_with_side_and_sizes/WHISPER_GIP_general_clean_250415_v2.h5",
+  "destination_folder": "/mnt/ML/Development/katya.ivantsiv/blendshapes",
+  "unique_paths_length": 3792,
+  "total_files": 3792,
+  "results": {
+    "success": "3660, 96.52%",
+    "path_not_exist": "29, 0.76%",
+    "not_loadable": "0, 0.00%",
+    "features_path_not_exist": "0, 0.00%",
+    "has_nans": "47, 1.24%",
+    "lengths_mismatch": "56, 1.48%",
+    "values_out_of_range": "0, 0.00%"
+  }
+}

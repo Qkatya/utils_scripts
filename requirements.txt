@@ -1,1 +1,6 @@
- 
+dash
+dash-bootstrap-components
+pandas
+python-dateutil
+numpy
+plotly
